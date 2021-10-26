@@ -1,0 +1,22 @@
+//Жигарь Александр П43021
+//Подключение библиотеки
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+ setlocale(LC_ALL, "Rus");
+ int k;
+ cout << "k = "; 
+ cin >> k;
+ switch (k)
+  {
+  case 1: cout << "плохо"; break;
+  case 2: cout << "неудовлетворительно"; break;
+  case 3: cout << "удовлетворительно"; break;
+  case 4: cout << "хорошо"; break;
+  case 5: cout << "отлично"; break;
+  default: cout << "ошибка";}
+ cout << endl << endl;
+ system("pause");
+}
